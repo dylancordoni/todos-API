@@ -23,7 +23,7 @@ app.get('/todos', (req, res) => {
     } else {
         res.json(todos);
     }
-  });
+});
 
 // POST /todos - Add a new to-do item
 app.post('/todos', (req, res) => {
